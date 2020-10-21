@@ -1,0 +1,1 @@
+[{"model": "biapi.product", "pk": 1, "fields": {"name": "Rock"}}, {"model": "biapi.product", "pk": 2, "fields": {"name": "Acid"}}, {"model": "biapi.product", "pk": 3, "fields": {"name": "Fertilizer"}}]

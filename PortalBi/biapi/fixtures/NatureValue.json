@@ -1,0 +1,1 @@
+[{"model": "biapi.naturevalue", "pk": 1, "fields": {"name": "Price"}}, {"model": "biapi.naturevalue", "pk": 2, "fields": {"name": "Volume"}}]

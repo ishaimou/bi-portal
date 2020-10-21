@@ -1,0 +1,1 @@
+[{"model": "biapi.source", "pk": 1, "fields": {"source": "Bloomberg"}}, {"model": "biapi.source", "pk": 2, "fields": {"source": "CRU"}}, {"model": "biapi.source", "pk": 3, "fields": {"source": "IFA"}}]

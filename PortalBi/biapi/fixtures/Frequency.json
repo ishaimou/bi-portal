@@ -1,0 +1,1 @@
+[{"model": "biapi.frequency", "pk": 1, "fields": {"frequency": "Daily"}}, {"model": "biapi.frequency", "pk": 2, "fields": {"frequency": "Weekly"}}, {"model": "biapi.frequency", "pk": 3, "fields": {"frequency": "Quarter"}}, {"model": "biapi.frequency", "pk": 4, "fields": {"frequency": "Monthly"}}]

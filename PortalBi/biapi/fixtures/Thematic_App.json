@@ -1,0 +1,10 @@
+[
+  { "model": "biapi.thematic_app", "pk": 1, "fields": { "name": "Market" } },
+  {
+    "model": "biapi.thematic_app",
+    "pk": 2,
+    "fields": { "name": "Sources Externes" }
+  },
+  { "model": "biapi.thematic_app", "pk": 3, "fields": { "name": "Event" } },
+  { "model": "biapi.thematic_app", "pk": 4, "fields": { "name": "Finance" } }
+]

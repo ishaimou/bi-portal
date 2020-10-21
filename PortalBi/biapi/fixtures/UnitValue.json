@@ -1,0 +1,1 @@
+[{"model": "biapi.unitvalue", "pk": 1, "fields": {"unit": "USD"}}, {"model": "biapi.unitvalue", "pk": 2, "fields": {"unit": "EUR"}}, {"model": "biapi.unitvalue", "pk": 3, "fields": {"unit": "GBP"}}, {"model": "biapi.unitvalue", "pk": 4, "fields": {"unit": "RMB"}}]

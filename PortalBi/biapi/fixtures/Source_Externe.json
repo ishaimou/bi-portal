@@ -1,0 +1,112 @@
+[
+  {
+    "model": "biapi.source_externe",
+    "pk": 1,
+    "fields": {
+      "name": "CRU",
+      "website": "https://www.crugroup.com/",
+      "logo": "images/sourcesext/CRU.png",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 2,
+    "fields": {
+      "name": "Argus",
+      "website": "https://www.argusmedia.com/",
+      "logo": "images/sourcesext/argus-logo-registered.png",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 3,
+    "fields": {
+      "name": "FERTECON",
+      "website": "https://fertecon.agribusinessintelligence.informa.com/",
+      "logo": "images/sourcesext/fertecon-logo.png",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 4,
+    "fields": {
+      "name": "PROFERCY",
+      "website": "https://www.profercy.com/",
+      "logo": "images/sourcesext/Profercy_Logo-180w.png",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 5,
+    "fields": {
+      "name": "IHS Markit",
+      "website": "https://www.gtis.com/gta/",
+      "logo": "images/sourcesext/ihs.png",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 6,
+    "fields": {
+      "name": "IFA",
+      "website": "http://ifadata.fertilizer.org/ucSearch.aspx",
+      "logo": "images/sourcesext/ifa_logo.png",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 7,
+    "fields": {
+      "name": "Baiinfo",
+      "website": "http://www.baiinfo.com/en",
+      "logo": "images/sourcesext/baiinfo.gif",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 8,
+    "fields": {
+      "name": "World Bank",
+      "website": "https://www.worldbank.org/",
+      "logo": "images/sourcesext/logo-wb-header-en.svg",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 9,
+    "fields": {
+      "name": "FMI : international monetary fund",
+      "website": "https://www.imf.org/",
+      "logo": "images/sourcesext/imf-seal-shadow-sep2019-update-svg.svg",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 10,
+    "fields": {
+      "name": "CIA (World Factbook)",
+      "website": "https://www.cia.gov/library/publications/the-world-factbook/",
+      "logo": "images/sourcesext/CIA.png",
+      "thematic": [2]
+    }
+  },
+  {
+    "model": "biapi.source_externe",
+    "pk": 11,
+    "fields": {
+      "name": "usda",
+      "website": "https://www.usda.gov/",
+      "logo": "images/sourcesext/usda-symbol.svg",
+      "thematic": [2]
+    }
+  }
+]

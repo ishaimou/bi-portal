@@ -1,0 +1,286 @@
+/* @import "https://code.highcharts.com/css/highcharts.css"; */
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eeeeee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+/* .ant-table {
+  line-height: 0.2 !important;
+  font-size: 14px !important;
+} */
+
+/* .ant-table-small {
+  line-height: 0.1 !important;
+} */
+
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-body
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-body
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-fixed-left
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-fixed-right
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-fixed-left
+  > .ant-table-body-outer
+  > .ant-table-body-inner
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-fixed-right
+  > .ant-table-body-outer
+  > .ant-table-body-inner
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-header
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-body
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-header
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-body
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-fixed-left
+  > .ant-table-header
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-fixed-right
+  > .ant-table-header
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-fixed-left
+  > .ant-table-body-outer
+  > .ant-table-body-inner
+  > table
+  > .ant-table-tbody
+  > tr
+  > td,
+.ant-table-small
+  > .ant-table-content
+  > .ant-table-fixed-right
+  > .ant-table-body-outer
+  > .ant-table-body-inner
+  > table
+  > .ant-table-tbody
+  > tr
+  > td {
+  padding: 0;
+  margin: 0;
+  line-height: 0%;
+  height: 19px;
+}
+
+.ant-statistic-content {
+  font-size: 1em;
+}
+
+.ant-statistic-content-value-decimal {
+  font-size: 1em;
+}
+
+.ant-statistic-content-suffix {
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.ant-statistic-content-prefix {
+  margin-right: 0px;
+}
+
+.ant-checkbox-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .ant-table-selection-column {
+  width: 50px;
+} */
+
+.anticon.anticon-fullscreen:hover {
+  color: rgb(24, 144, 255);
+  transition: color 300ms ease-in-out;
+}
+
+.content {
+  padding: 0 30px 30px;
+  min-height: calc(100vh - 123px);
+  margin-top: 1%;
+}
+
+.ant-card {
+  /* background: #36404a; */
+  /* background: #27293d; */
+  background: #ffffff;
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  width: 100%;
+  /* border-radius: 0.25rem; */
+  border-radius: 6px;
+  /* min-height: 465px; */
+  /* min-height: 400px; */
+}
+
+.ant-card-body {
+  padding: 1px;
+}
+.ant-table {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* .ant-table-thead {
+  display: none;
+  margin: 0;
+  padding: 0;
+} */
+
+.charts-title {
+  padding: 5px 0px 0px 0px;
+  /* text-align: "left"; */
+  text-transform: capitalize;
+  margin: 5px 0px 0px 5px;
+  fill: #404e67;
+  line-height: 19px;
+  font-weight: 600;
+  /* font-family: "Montserrat, Georgia, 'Times New Roman', Times, serif"; */
+  font-family: "Calibri";
+  /* letter-spacing: 0.1em; */
+  font-size: 24px;
+}
+
+.highcharts-credits {
+  display: none;
+}
+
+.ant-tag {
+  display: inline;
+  margin-right: 0px;
+  padding: 0 2px;
+  font-size: 10px;
+  line-height: 8px;
+  white-space: nowrap;
+  border: none;
+
+  /* font-weight: 700; */
+  /* font-family: "Montserrat, sans-serif"; */
+  /* font-family: "Arial, Helvetica, 'Nimbus Sans L', sans-serif"; */
+}
+
+.ant-tag.ant-tag-blue {
+  background: #e6f7ff;
+  color: #1890ff;
+}
+
+.ant-tag.ant-tag-green {
+  /* modify */
+  background: #e6f7ff;
+  color: #1890ff;
+}
+
+.clock:hover {
+  color: rgb(24, 144, 255);
+}
+
+.ulnavbar {
+  margin-top: -1% !important;
+}

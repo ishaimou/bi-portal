@@ -1,0 +1,1 @@
+[{"model": "biapi.indicatorcategory", "pk": 1, "fields": {"category": "Commodity"}}, {"model": "biapi.indicatorcategory", "pk": 2, "fields": {"category": "Raw Material"}}, {"model": "biapi.indicatorcategory", "pk": 3, "fields": {"category": "Phosphate"}}, {"model": "biapi.indicatorcategory", "pk": 4, "fields": {"category": "Macro Factors"}}]
